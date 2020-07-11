@@ -1,0 +1,11 @@
+// tilde mean tell webpack import folder located in node_module
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~jquery-ui/themes/base/datepicker.css'; 
+@import '~jquery-ui/themes/base/theme.css';
+@import '~quill/dist/quill.snow.css';
+
+$gradient: linear-gradient(to right, #00467f, #a5cc82);
+body {
+  // background-image: $gradient;
+  background-image: url("../images/image.png");
+}
